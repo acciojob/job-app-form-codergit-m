@@ -8,47 +8,41 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="submit" method="POST">
-		<label for="name">Name*</label>
-		<input type="text" id="name" name="name" placeholder="enter your name" required>
+	<form method = "post">
+		<label for="name"> Name*</label>
+		<input id ="name"type="text" name= "name" required>
 		<br>
-
-		<label for="email">Email*</label>
-		<input type="email" id="email" name="email" required>
+		<label for="email"> Email*</label>
+		<input id="email" type="email" required>
 		<br>
-
-		<label for="gender">Gender*</label>
-		<label for="male">Male</label>
-		<input type="radio" id="male" name="gender" required>
-		<label for="female">Male</label>
-		<input type="radio" id="female" name="gender" required>
+		<label id="gender" for="gender"> Gender*</label>
+		<label for="male" > Male</label>
+		<input type="radio" name="gender" required>
+		<label for="female" > Female</label>
+		<input type="radio" name="gender" required>
 		<br>
-
-		<label for="laptop">Laptop Brands</label>
+	    <label for="laptop">Laptos Brands</label>
 		<select id="laptop">
-			<option id="laptop">Apple</option>
-			<option id="Asus">Asus</option>
-			<option id="HP">HP</option>
+		<option id="laptop">Apple</option>
+		<option id="laptop">Asus</option>
+		<option id="laptop">Hp</option>
 		</select>
 		<br>
-
-		<label for="age">Age*</label>
+		 <label for="age">Age*</label>
 		<input id="age" type="number" required>
 		<br>
-
-		<label for="dob">DOB*</label>
-		<input id="dob" id="number" required>
+		 <label for="dob">DOB*</label>
+		<input id="dob" type="number" required>
 		<br>
-
-		<label for="password" >Password*</label>
+		 <label for="password">Password*</label>
 		<input id="password" type="password" required>
 		<br>
-
-		<label for="porfolio">Portfolio*</label>
+		 <label for="portfolio">Portfolio*</label>
 		<input id="portfolio" type="url">
 		<br>
-
-		<button id="submit" type="submit">Submit*</button>
+		<button  id ="submit" type="submit">Submit</button>
+		
+		
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
